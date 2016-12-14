@@ -1,0 +1,8 @@
+<%= form_tag("/calc/view.json", :method => "get", remote:true, :class=>'input_form', id:'calc_form') do %>
+    <%= label_tag("Введите числа через пробел") %>
+    <%= text_field_tag(:v2) %> <br/>
+    <br/>
+    <%= submit_tag("Посмотреть результат") %>
+    <p>
+    <table id="result" class="output_table"></table>
+<% end %>

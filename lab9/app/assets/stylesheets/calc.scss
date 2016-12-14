@@ -1,0 +1,31 @@
+// Place all the styles related to the Calc controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html,body
+{
+  background-image: image-url('bg.jpg');
+  font-size: large;
+}
+.input_form
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+td, th
+{
+  border: 1px solid black;
+  text-align: center;
+}
+.output_table
+{
+  border-collapse: collapse;
+}
+
